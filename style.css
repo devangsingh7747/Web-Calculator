@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#display {
+    height: 60px;
+    font-size: 26px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: none;
+    background: black;
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #d4d4d4;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #bbb;
+}
+
+
+.clear {
+    background: #989898;
+    color: white;
+}
+.clear:hover {
+    background: #c0bfbf;
+}
+
+.sign {
+    background: #989898;
+    color: white;
+}
+.sign:hover {
+    background: #c0bfbf;
+}
+
+.percentage {
+    background: #989898;
+    color: white;
+}
+.percentage:hover {
+    background: #c0bfbf;
+}
+
+.divide {
+    background: #fab222;
+    color: white;
+}
+
+.divide:hover {
+    background: #feba4c;
+}
+
+.multiply {
+    background: #fab222;
+    color: white;
+}
+
+.multiply:hover {
+    background: #feba4c;
+}
+
+.subtract {
+    background: #fab222;
+    color: white;
+}
+
+.subtract:hover {
+    background: #feba4c;
+}
+
+.addition {
+    background: #fab222;
+    color: white;
+}
+
+.addition:hover {
+    background: #feba4c;
+}
+
+.equal {
+    background: #fab222;
+    color: white;
+}
+
+.equal:hover {
+    background: #fab222;
+}
+
+.numpad {
+    background: #5e5a53;
+    color: white;
+}
+.numpad:hover {
+    background: #837d74;
+}
+
+.zero {
+    grid-column: span 2;
+    background: #5e5a53;
+    color: white;
+}
+.zero:hover {
+    background: #837d74;
+}
