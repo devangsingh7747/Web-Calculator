@@ -14,5 +14,4 @@ This is a basic calculator created as a free-time project, made purely for pract
 
 ## How to Use
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/simple-calculator.git
+   https://github.com/devangsingh7747/Web-Calculator.git
