@@ -2,8 +2,8 @@
 This is a basic calculator created as a free-time project, made purely for practice and learning purposes.
 
 ## Features
-- Addition, Subtraction, Multiplication, Division, Percentage Calculation
-- Toggle Positive/Negative (+/-)
+- Addition, Subtraction, Multiplication, Division, Percentage Calculation,
+- Toggle Positive/Negative (+/-), 
 - Responsive and clean design
 
 ## Technologies Used
